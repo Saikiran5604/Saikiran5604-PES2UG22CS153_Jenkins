@@ -35,7 +35,7 @@ pipeline {
 
     post {
         failure {
-            echo '❌ Pipeline failed! Check errors.'
+            echo 'Pipeline failed! Check errors.'
         }
     }
 }
